@@ -1,0 +1,171 @@
+{
+  "start": "white",
+  "tree": {
+    "": {
+      "player": false,
+      "moves": [
+        [
+          "e4",
+          1.0
+        ]
+      ]
+    },
+    "e4": {
+      "player": true,
+      "moves": [
+        [
+          "e6",
+          0.6
+        ],
+        [
+          "e5",
+          0.4
+        ]
+      ]
+    },
+    "e4-e6": {
+      "player": false,
+      "moves": [
+        [
+          "d4",
+          1.0
+        ]
+      ]
+    },
+    "e4-e5": {
+      "player": false,
+      "moves": [
+        [
+          "Nf3",
+          1.0
+        ]
+      ]
+    },
+    "e4-e6-d4": {
+      "player": true,
+      "moves": [
+        [
+          "d5",
+          0.7
+        ],
+        [
+          "c5",
+          0.3
+        ]
+      ]
+    },
+    "e4-e5-Nf3": {
+      "player": true,
+      "moves": [
+        [
+          "Nc6",
+          0.6
+        ],
+        [
+          "Nf6",
+          0.4
+        ]
+      ]
+    },
+    "e4-e6-d4-d5": {
+      "player": false,
+      "moves": [
+        [
+          "Nc3",
+          0.5
+        ],
+        [
+          "Nd2",
+          0.5
+        ]
+      ]
+    },
+    "e4-e6-d4-c5": {
+      "player": false,
+      "moves": [
+        [
+          "Nf3",
+          1.0
+        ]
+      ]
+    },
+    "e4-e5-Nf3-Nc6": {
+      "player": false,
+      "moves": [
+        [
+          "Bb5",
+          0.7
+        ],
+        [
+          "Bc4",
+          0.3
+        ]
+      ]
+    },
+    "e4-e5-Nf3-Nf6": {
+      "player": false,
+      "moves": [
+        [
+          "Nxe5",
+          1.0
+        ]
+      ]
+    },
+    "e4-e6-d4-d5-Nc3": {
+      "player": true,
+      "moves": [
+        [
+          "Nf6",
+          0.8
+        ],
+        [
+          "Bb4",
+          0.2
+        ]
+      ]
+    },
+    "e4-e6-d4-d5-Nd2": {
+      "player": true,
+      "moves": [
+        [
+          "Nf6",
+          0.9
+        ],
+        [
+          "c5",
+          0.1
+        ]
+      ]
+    },
+    "e4-e5-Nf3-Nc6-Bb5": {
+      "player": true,
+      "moves": [
+        [
+          "a6",
+          0.6
+        ],
+        [
+          "Nf6",
+          0.3
+        ],
+        [
+          "f5",
+          0.1
+        ]
+      ]
+    },
+    "e4-e5-Nf3-Nc6-Bc4": {
+      "player": true,
+      "moves": [
+        [
+          "Bc5",
+          0.5
+        ],
+        [
+          "Nf6",
+          0.5
+        ]
+      ]
+    }
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "start": "black",
+  "tree": {
+    "": {
+      "player": false,
+      "moves": [["e4", 1.0]]
+    },
+    "e4": {
+      "player": true,
+      "moves": [["e6", 1.0]]
+    },
+    "e4-e6": {
+      "player": false,
+      "moves": [["d4", 0.8], ["e5", 0.15], ["Nf3", 0.05]]
+    },
+    "e4-e6-d4": {
+      "player": true,
+      "moves": [["d5", 1.0]]
+    },
+    "e4-e6-e5": {
+      "player":  true,
+      "moves": [["d5", 1.0]]
+    },
+    "e4-e6-Nf3": {
+      "player": true,
+      "moves": [["d5", 1.0]]
+    },
+    "e4-e6-d4-d5": {
+      "player": false,
+      "moves": [["Nc3", 0.5], ["Nd2", 0.35], ["exd5", 0.15]]
+    },
+    "e4-e6-d4-d5-Nc3": {
+      "player": true,
+      "moves": [["Nf6", 0.6], ["Bb4", 0.4]]
+    },
+    "e4-e6-d4-d5-Nd2": {
+      "player": true,
+      "moves": [["Nf6", 0.7], ["c5", 0.3]]
+    },
+    "e4-e6-d4-d5-exd5": {
+      "player":  true,
+      "moves": [["exd5", 1.0]]
+    },
+    "e4-e6-d4-d5-Nc3-Nf6": {
+      "player": false,
+      "moves": [["Bg5", 0.6], ["e5", 0.4]]
+    },
+    "e4-e6-d4-d5-Nc3-Bb4": {
+      "player":  false,
+      "moves": [["e5", 0.7], ["exd5", 0.3]]
+    },
+    "e4-e6-d4-d5-Nd2-Nf6": {
+      "player": false,
+      "moves":  [["e5", 0.8], ["Ngf3", 0.2]]
+    },
+    "e4-e6-d4-d5-Nc3-Nf6-Bg5": {
+      "player":  true,
+      "moves": [["Be7", 0.7], ["dxe4", 0.2], ["Bb4", 0.1]]
+    },
+    "e4-e6-d4-d5-Nc3-Nf6-e5": {
+      "player":  true,
+      "moves": [["Nfd7", 0.9], ["Ne4", 0.1]]
+    }
+  }
+}
